@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Business</title>
+    <link rel="stylesheet" href="addjob.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+      
+        <div class="container">
+    <div id="add--screen" >
+        <h2>Job Posting Site</h2>
+        <input class='empty' type="text" id="job-title" placeholder=" Enter Job Title">
+        <input class='empty' type="text" id="company-name" placeholder=" Enter Company">
+        <input class='empty' type="text" id="job-location" placeholder="Enter Location">
+             <input class='empty' type="text" id="job-hours" placeholder="Enter Working hours">
+             <div class="dropdown-container">
+                <label for="categories">Select Category</label>
+                <select id="categoriesofjob" name="categories">
+                    <option value="education">Education</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="lawfirm">Law Firms</option>
+                    <option value="hotels">Hotels</option>
+                </select>
+            </div>
+       
+        <div class="dashboard">
+        <button class="clicks" onclick="addJob()">Post Job</button>
+        <button class="clicks" onclick="displayJobs()">View Site</button>
+       <div>
+    </div></div></div></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="add-job"></div>
+    
+        <div class="dashboard">
+            <div class="center"></div></div>
+    </div>
+</body>
+<script src="addjob.js"></script>
+</html>
